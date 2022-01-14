@@ -1,0 +1,17 @@
+title: Turbonomic Billing Access Service Role
+description: "Updated 2022-01-14. This role provides the essential permissions for Turbonomic Service to view your GCP Cloud billing details"
+stage: "GA"
+includedPermissions:
+- billing.resourceAssociations.list
+- billing.accounts.list
+- compute.commitments.list
+- bigquery.tables.get
+- bigquery.tables.getData
+- bigquery.tables.list
+- bigquery.jobs.create
+- resourcemanager.organizations.get
+- resourcemanager.folders.list
+- resourcemanager.folders.get
+- resourcemanager.projects.list
+- resourcemanager.projects.get
+- billing.resourceAssociations.list
