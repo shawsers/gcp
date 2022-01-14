@@ -1,0 +1,34 @@
+title: Turbonomic Limited Access Service Role
+description: "Updated 2022-01-14. This role provides the essential permissions for Turbonomic Service to view your GCP Cloud resources and billing information"
+stage: "GA"
+includedPermissions:
+- resourcemanager.projects.get
+- compute.zones.list
+- compute.regions.list
+- compute.machineTypes.list
+- compute.machineTypes.get
+- compute.disks.get
+- compute.disks.list
+- compute.disksTypes.list
+- compute.instances.get
+- compute.instances.list
+- compute.instanceGroupManagers.get
+- compute.instanceGroupManagers.list
+- logging.views.list
+- logging.views.get
+- monitoring.services.get
+- monitoring.services.list
+- monitoring.timeSeries.list
+- billing.resourceAssociations.list
+- billing.accounts.list
+- compute.commitments.list
+- bigquery.tables.get
+- bigquery.tables.getData
+- bigquery.tables.list
+- bigquery.jobs.create
+- resourcemanager.organizations.get
+- resourcemanager.folders.list
+- resourcemanager.folders.get
+- resourcemanager.projects.list
+- resourcemanager.projects.get
+- billing.resourceAssociations.list
