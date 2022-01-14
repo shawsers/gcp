@@ -9,7 +9,7 @@ includedPermissions:
 - compute.machineTypes.get
 - compute.disks.get
 - compute.disks.list
-- compute.disksTypes.list
+- compute.diskTypes.list
 - compute.instances.get
 - compute.instances.list
 - compute.instanceGroupManagers.get
