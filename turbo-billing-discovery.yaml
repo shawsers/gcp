@@ -1,5 +1,5 @@
-title: Turbonomic Discovery and Billing Account Access Service Role
-description: "Updated 2022-01-28. This role provides the essential permissions for Turbonomic Service to discover your GCP Projects and billing details"
+title: Turbonomic Discovery and Billing Account Reader Access Role
+description: "Updated 2022-01-28. This role provides the essential permissions for Turbonomic to discover GCP Projects and read billing details"
 stage: "GA"
 includedPermissions:
 - billing.resourceAssociations.list
