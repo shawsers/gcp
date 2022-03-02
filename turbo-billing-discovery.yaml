@@ -2,6 +2,7 @@ title: Turbonomic Discovery and Billing Account Reader Access Role
 description: "Updated 2022-01-28. This role provides the basic permissions for Turbonomic to discover GCP Projects and read billing details, in addition to this role the Billing Account Reader role is also needed to the service account"
 stage: "GA"
 includedPermissions:
+# Billing and Commitments
 - billing.resourceAssociations.list
 - billing.accounts.list
 - compute.commitments.list
@@ -9,6 +10,7 @@ includedPermissions:
 - bigquery.tables.getData
 - bigquery.tables.list
 - bigquery.jobs.create
+# Discovery
 - resourcemanager.organizations.get
 - resourcemanager.folders.list
 - resourcemanager.folders.get
@@ -25,6 +27,7 @@ includedPermissions:
 - compute.instances.list
 - compute.instanceGroupManagers.get
 - compute.instanceGroupManagers.list
+# Metrics Monitoring
 - logging.views.list
 - logging.views.get
 - monitoring.services.get
